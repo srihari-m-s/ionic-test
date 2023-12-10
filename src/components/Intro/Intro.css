@@ -1,0 +1,23 @@
+.swiper {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.swiper-slide img {
+  /* border: 1px solid red; */
+  width: 100%;
+  min-height: 50dvh;
+  max-height: 50dvh;
+  object-fit: contain;
+}

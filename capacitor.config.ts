@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'test',
   webDir: 'dist',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'http://localhost:8100/home'
   }
 };
 
